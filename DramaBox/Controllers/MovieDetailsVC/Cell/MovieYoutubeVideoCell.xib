@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24412" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24405"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MovieYoutubeVideoCell" customModule="DramaBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="249" height="143"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="249" height="143"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vum-GU-PfV">
+                        <rect key="frame" x="0.0" y="0.0" width="249" height="143"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l0V-gy-c42">
+                                <rect key="frame" x="0.0" y="0.0" width="249" height="143"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEQ-ZG-2py">
+                                <rect key="frame" x="104.66666666666667" y="51.666666666666657" width="40.000000000000014" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="95q-w7-tI0"/>
+                                    <constraint firstAttribute="height" constant="40" id="l7c-b8-2Sj"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="play_youtube"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="l0V-gy-c42" firstAttribute="top" secondItem="Vum-GU-PfV" secondAttribute="top" id="3y7-dd-v4K"/>
+                            <constraint firstItem="WEQ-ZG-2py" firstAttribute="centerX" secondItem="Vum-GU-PfV" secondAttribute="centerX" id="DFu-I3-aaA"/>
+                            <constraint firstItem="l0V-gy-c42" firstAttribute="leading" secondItem="Vum-GU-PfV" secondAttribute="leading" id="ef3-CH-XrM"/>
+                            <constraint firstAttribute="trailing" secondItem="l0V-gy-c42" secondAttribute="trailing" id="q5V-0Q-NHi"/>
+                            <constraint firstItem="WEQ-ZG-2py" firstAttribute="centerY" secondItem="Vum-GU-PfV" secondAttribute="centerY" id="vri-wn-slX"/>
+                            <constraint firstAttribute="bottom" secondItem="l0V-gy-c42" secondAttribute="bottom" id="ztt-1I-SJT"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Vum-GU-PfV" secondAttribute="bottom" id="38L-im-Mx8"/>
+                <constraint firstItem="Vum-GU-PfV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A3V-Tr-SnW"/>
+                <constraint firstAttribute="trailing" secondItem="Vum-GU-PfV" secondAttribute="trailing" id="Oma-7n-bdl"/>
+                <constraint firstItem="Vum-GU-PfV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XPt-1c-zjQ"/>
+            </constraints>
+            <size key="customSize" width="249" height="143"/>
+            <connections>
+                <outlet property="playButton" destination="WEQ-ZG-2py" id="fxH-nU-qZR"/>
+                <outlet property="videoThumbImageView" destination="l0V-gy-c42" id="OQq-Ir-0z2"/>
+            </connections>
+            <point key="canvasLocation" x="287.78625954198475" y="186.26760563380282"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="play_youtube" width="40" height="40"/>
+    </resources>
+</document>

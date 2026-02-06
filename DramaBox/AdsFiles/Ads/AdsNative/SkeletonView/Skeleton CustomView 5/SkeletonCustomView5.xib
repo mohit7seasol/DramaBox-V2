@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SkeletonCustomView5" id="iN0-l3-epB" customClass="SkeletonCustomView5" customModule="LiveCricketTV5" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="576" height="381"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RRH-L5-MIG" customClass="View" customModule="LiveCricketTV5" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="576" height="381"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jUK-hd-Qi5">
+                            <rect key="frame" x="14" y="20" width="548" height="293"/>
+                            <subviews>
+                                <view clipsSubviews="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="vZU-A5-fsX" customClass="View" customModule="LiveCricketTV5" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="548" height="293"/>
+                                    <color key="backgroundColor" red="0.54117647059999996" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </stackView>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ubc-vd-vjI" customClass="View" customModule="LiveCricketTV5" customModuleProvider="target">
+                            <rect key="frame" x="482" y="321" width="80" height="52"/>
+                            <color key="backgroundColor" red="0.54117647059999996" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="gOi-TH-4Om"/>
+                                <constraint firstAttribute="height" constant="52" id="s6w-U9-uwv"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="14"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="zjq-9C-lSC">
+                            <rect key="frame" x="14" y="321" width="448" height="52"/>
+                            <subviews>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMi-yG-1D1" customClass="View" customModule="LiveCricketTV5" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="52" height="52"/>
+                                    <color key="backgroundColor" red="0.54117647059999996" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="xMi-yG-1D1" secondAttribute="height" id="Us2-a0-x5p"/>
+                                        <constraint firstAttribute="height" constant="52" id="esy-lK-bGE"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xS7-xp-nTL">
+                                    <rect key="frame" x="54" y="0.0" width="394" height="52"/>
+                                    <subviews>
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H3w-hw-6km" customClass="View" customModule="LiveCricketTV5" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="23.666666666666668"/>
+                                            <color key="backgroundColor" red="0.54117647059999996" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="3"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cyp-Ry-hbE" customClass="View" customModule="LiveCricketTV5" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="28.666666666666686" width="394" height="23.333333333333329"/>
+                                            <color key="backgroundColor" red="0.54117647059999996" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="3"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ubc-vd-vjI" secondAttribute="trailing" constant="14" id="0wQ-Jl-IlX"/>
+                        <constraint firstAttribute="trailing" secondItem="jUK-hd-Qi5" secondAttribute="trailing" constant="14" id="6Vr-I2-YLM"/>
+                        <constraint firstItem="ubc-vd-vjI" firstAttribute="leading" secondItem="zjq-9C-lSC" secondAttribute="trailing" constant="20" id="9fy-bM-gUN"/>
+                        <constraint firstItem="zjq-9C-lSC" firstAttribute="leading" secondItem="RRH-L5-MIG" secondAttribute="leading" constant="14" id="G6C-zV-hdC"/>
+                        <constraint firstItem="zjq-9C-lSC" firstAttribute="top" secondItem="jUK-hd-Qi5" secondAttribute="bottom" constant="8" id="JS9-OQ-98J"/>
+                        <constraint firstAttribute="bottom" secondItem="zjq-9C-lSC" secondAttribute="bottom" constant="8" id="MDS-g6-6gG"/>
+                        <constraint firstAttribute="bottom" secondItem="ubc-vd-vjI" secondAttribute="bottom" constant="8" id="Mou-pg-Xmr"/>
+                        <constraint firstItem="jUK-hd-Qi5" firstAttribute="leading" secondItem="RRH-L5-MIG" secondAttribute="leading" constant="14" id="NtU-NN-a5x"/>
+                        <constraint firstItem="ubc-vd-vjI" firstAttribute="top" secondItem="jUK-hd-Qi5" secondAttribute="bottom" constant="8" id="tHk-r9-doC"/>
+                        <constraint firstItem="jUK-hd-Qi5" firstAttribute="top" secondItem="RRH-L5-MIG" secondAttribute="top" constant="20" id="uCx-jz-xGW"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="skeletonCornerRadius">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="4SF-bd-Jn4"/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="0.65087350092250917" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="RRH-L5-MIG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7jW-yE-sNJ"/>
+                <constraint firstAttribute="bottom" secondItem="RRH-L5-MIG" secondAttribute="bottom" id="Kh2-9E-ci0"/>
+                <constraint firstAttribute="trailing" secondItem="RRH-L5-MIG" secondAttribute="trailing" id="TJ6-zd-c3H"/>
+                <constraint firstItem="RRH-L5-MIG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ebO-hj-sEb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="shimmerView" destination="RRH-L5-MIG" id="5ya-vz-7ot"/>
+                <outlet property="view1" destination="vZU-A5-fsX" id="JLp-gO-edB"/>
+                <outlet property="view2" destination="ubc-vd-vjI" id="EhX-vO-bTr"/>
+                <outlet property="view3" destination="xMi-yG-1D1" id="kZD-CH-KnK"/>
+                <outlet property="view4" destination="H3w-hw-6km" id="mBo-nF-Dse"/>
+                <outlet property="view5" destination="cyp-Ry-hbE" id="m2D-xJ-RaU"/>
+            </connections>
+            <point key="canvasLocation" x="296.18320610687022" y="-202.46478873239437"/>
+        </view>
+    </objects>
+</document>

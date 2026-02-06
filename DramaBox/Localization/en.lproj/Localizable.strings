@@ -1,0 +1,154 @@
+/* 
+  Localizable.strings
+  DramaBox
+
+  Created by DREAMWORLD on 04/12/25.
+  
+*/
+
+"Continue" = "Continue";
+"Dive Into Captivating Short Dramas" = "Dive Into Captivating Short Dramas";
+"Enjoy Seamless Binge Watching" = "Enjoy Seamless Binge Watching";
+"Immerse In Dramas Enjoy HD Quality" = "Immerse In Dramas Enjoy HD Quality";
+"Choose the language you want to use." = "Choose the language you want to use.";
+"Done" = "Done";
+"Welcome to" = "Welcome to";
+"DramaBox" = "DramaBox";
+"Language" = "Language";
+"Privacy Policy" = "Privacy Policy";
+"Terms Of Use" = "Terms Of Use";
+"About Us" = "About Us";
+"EULA" = "EULA";
+"Rate App" = "Rate App";
+"Invite Friends" = "Invite Friends";
+"Home" = "Home";
+"Stories" = "Stories";
+"My List" = "My List";
+"Setting" = "Setting";
+"No Internet Connection" = "No Internet Connection";
+"Please check your network settings." = "Please check your network settings.";
+"View All" = "View All";
+"Search here..." = "Search here...";
+"Watch now" = "Watch now";
+"New Dramas" = "New Dramas";
+"Hot Picks 🔥" = "Hot Picks 🔥";
+"Swipe to see more" = "Swipe to see more";
+"Explore More" = "Explore More";
+"Watch History" = "Watch History";
+"No data found" = "No data found";
+"No watch history yet" = "No watch history yet";
+"No saved episodes yet" = "No saved episodes yet";
+"edit" = "edit";
+"delete" = "delete";
+"Are you sure you want to delete" = "Are you sure you want to delete";
+"selected item(s)?" = "selected item(s)?";
+"Cancel" = "Cancel";
+"Delete" = "Delete";
+"Play Speed" = "Play Speed";
+"Display Quality" = "Display Quality";
+
+"General" = "General";
+"Other" = "Other";
+
+"Hot Picks" = "Hot Picks";
+"Enjoy Full Stories" = "Enjoy Full Stories";
+"Delete Items" = "Delete Items";
+
+
+"Fun" = "Fun";
+"Guess the Movie" = "Guess the Movie";
+"Solve clues and reveal the movie title." = "Solve clues and reveal the movie title.";
+"Movie Quiz" = "Movie Quiz";
+"Answer fun questions about movies and shows." = "Answer fun questions about movies and shows.";
+"Spin the Wheel" = "Spin the Wheel";
+"Let the wheel choose what to watch." = "Let the wheel choose what to watch.";
+"Ringtones" = "Ringtones";
+"Wallpaper" = "Wallpaper";
+"Wallpapers" = "Wallpapers";
+"Download" = "Download";
+"Success" = "Success";
+"Wallpaper saved to your photo gallery." = "Wallpaper saved to your photo gallery.";
+"Please allow photo library access in Settings to save wallpapers." = "Please allow photo library access in Settings to save wallpapers.";
+"Permission Required" = "Permission Required";
+"Settings" = "Settings";
+"Downloading..." = "Downloading...";
+"No image available to download." = "No image available to download.";
+"Ringtone" = "Ringtone";
+"Music" = "Music";
+"Upcoming" = "Upcoming";
+"Top Rated" = "Top Rated";
+"Top Rated🔥" = "Top Rated🔥";
+"Read More" = "Read More";
+"Read Less" = "Read Less";
+"Swipe to see more posters" = "Swipe to see more posters";
+"Release Date:" = "Release Date:";
+"Search movies..." = "Search movies...";
+"Play Quiz" = "Play Quiz";
+"Next" = "Next";
+"Start Quiz" =  "Start Quiz";
+"Ok" = "Ok";
+"Please select an option" = "Please select an option";
+"Quiz Time" = "Quiz Time";
+"Congrats!" = "Congrats!";
+"Submit" = "Submit";
+"You've successfully completed the quiz!" = "You've successfully completed the quiz!";
+"Check Your Score Now!" = "Check Your Score Now!";
+"Right Answers:" = "Right Answers:";
+"Wrong Answers:" ="Wrong Answers:";
+"Complete" = "Complete";
+"Let the Wheel Decide!" = "Let the Wheel Decide!";
+"Spin to pick a random category & explore movies instantly." = "Spin to pick a random category & explore movies instantly.";
+"Spin" = "Spin";
+"No movies found" = "No movies found";
+"Share" = "Share";
+"Poster" = "Poster";
+"Video" = "Video";
+"Posters" = "Posters";
+"Videos" = "Videos";
+
+"Get Premium Access" = "Get Premium Access";
+"Unlock premium benefits for a better experience" = "Unlock premium benefits for a better experience";
+"Ad-free experience" = "Ad-free experience";
+"Upcoming movie details" = "Upcoming movie details";
+"Short reels from great films" = "Short reels from great films";
+"Monthly Plan" = "Monthly Plan";
+"Only" = "Only";
+"/Monthly" = "/Monthly";
+"Unlock Premium" = "Unlock Premium";
+"Yearly Plan" = "Yearly Plan";
+"/Yearly" = "/Yearly";
+"Terms" = "Terms";
+"Privacy" = "Privacy";
+"Restore" = "Restore";
+"Total Episodes:" = "Total Episodes:";
+"Play" = "Play";
+"Watch Trailer" = "Watch Trailer";
+"All Episodes" = "All Episodes";
+"Episode" = "Episode";
+
+"Sora Pixo" = "Sora Pixo";
+"Success! The movie category name is now revealed." = "Success! The movie category name is now revealed.";
+"Spin Again" = "Spin Again";
+"Top Cast" = "Top Cast";
+"Top Crew" = "Top Crew";
+"Known for:" = "Known for:";
+"Birthday:" = "Birthday:";
+"Place of Birth:" = "Place of Birth:";
+"Biography" = "Biography";
+"Movie" = "Movie";
+"Do you like our App?" = "Do you like our App?";
+"Help us improve the app by answering this quick poll" = "Help us improve the app by answering this quick poll";
+"No ❌" = "No ❌";
+"Yes 👍" = "Yes 👍";
+" Read More" = " Read More";
+"... Read More" = "... Read More";
+" Read Less" = " Read Less";
+"IPTV" = "IPTV";
+"Loading channel..." = "Loading channel...";
+"Failed to load channel. Please check your internet connection." = "Failed to load channel. Please check your internet connection.";
+"Invalid channel URL" =  "Invalid channel URL";
+"Channel loading timeout. Please try again." = "Channel loading timeout. Please try again.";
+"No biography available." = "No biography available.";
+"Tv Show" = "Tv Show";
+"Category" = "Category";
+"Country" = "Country";

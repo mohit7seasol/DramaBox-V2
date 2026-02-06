@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SkeletonCustomView4" id="iN0-l3-epB" customClass="SkeletonCustomView4" customModule="Paralle_Space" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="657" height="227"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iM8-1t-OVU" customClass="View" customModule="Paralle_Space" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="657" height="227"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6C-Ot-OmM" customClass="View" customModule="Paralle_Space" customModuleProvider="target">
+                            <rect key="frame" x="12" y="169" width="633" height="50"/>
+                            <color key="backgroundColor" red="0.54117647058823526" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="5qb-Qy-uKx"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="14"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ZpP-nV-zg7">
+                            <rect key="frame" x="12" y="8" width="633" height="153"/>
+                            <subviews>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezu-wu-dT1" customClass="View" customModule="Paralle_Space" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="153" height="153"/>
+                                    <color key="backgroundColor" red="0.54117647058823526" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Ezu-wu-dT1" secondAttribute="height" multiplier="1:1" id="Hfh-WC-eYv"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="GUc-L6-5Bj">
+                                    <rect key="frame" x="161" y="0.0" width="472" height="153"/>
+                                    <subviews>
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Fq-Ev-h9U">
+                                            <rect key="frame" x="0.0" y="0.0" width="472" height="153"/>
+                                            <subviews>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0qe-NH-wxo" customClass="View" customModule="Paralle_Space" customModuleProvider="target">
+                                                    <rect key="frame" x="10" y="0.0" width="454" height="20"/>
+                                                    <color key="backgroundColor" red="0.54117647058823526" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="A6J-b2-POD"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPf-ls-vcg" customClass="View" customModule="Paralle_Space" customModuleProvider="target">
+                                                    <rect key="frame" x="10" y="25" width="20" height="18"/>
+                                                    <color key="backgroundColor" red="0.54117647058823526" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="U76-hU-aMq"/>
+                                                        <constraint firstAttribute="width" constant="20" id="kzr-pr-rZ4"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="0.0"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8d-Za-3uK" customClass="View" customModule="Paralle_Space" customModuleProvider="target">
+                                                    <rect key="frame" x="35" y="25" width="429" height="18"/>
+                                                    <color key="backgroundColor" red="0.54117647058823526" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="lzd-ZQ-a3V"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5V-iN-BYj" customClass="View" customModule="Paralle_Space" customModuleProvider="target">
+                                                    <rect key="frame" x="10" y="48" width="454" height="18"/>
+                                                    <color key="backgroundColor" red="0.54117647058823526" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="Z8o-W4-xhS"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="SPf-ls-vcg" firstAttribute="leading" secondItem="4Fq-Ev-h9U" secondAttribute="leading" constant="10" id="0FX-Ra-8B4"/>
+                                                <constraint firstItem="a5V-iN-BYj" firstAttribute="leading" secondItem="4Fq-Ev-h9U" secondAttribute="leading" constant="10" id="3yK-c6-rzK"/>
+                                                <constraint firstItem="a5V-iN-BYj" firstAttribute="top" secondItem="SPf-ls-vcg" secondAttribute="bottom" constant="5" id="5qk-ue-d1X"/>
+                                                <constraint firstItem="a8d-Za-3uK" firstAttribute="leading" secondItem="SPf-ls-vcg" secondAttribute="trailing" constant="5" id="Mb4-nA-MZP"/>
+                                                <constraint firstItem="a8d-Za-3uK" firstAttribute="top" secondItem="SPf-ls-vcg" secondAttribute="top" id="Ruy-zH-YXV"/>
+                                                <constraint firstItem="0qe-NH-wxo" firstAttribute="leading" secondItem="4Fq-Ev-h9U" secondAttribute="leading" constant="10" id="S9L-5L-wdd"/>
+                                                <constraint firstAttribute="trailing" secondItem="a8d-Za-3uK" secondAttribute="trailing" constant="8" id="fyh-11-zzZ"/>
+                                                <constraint firstAttribute="trailing" secondItem="0qe-NH-wxo" secondAttribute="trailing" constant="8" id="h8r-Fz-vB3"/>
+                                                <constraint firstAttribute="trailing" secondItem="a5V-iN-BYj" secondAttribute="trailing" constant="8" id="nmI-gT-d1J"/>
+                                                <constraint firstItem="SPf-ls-vcg" firstAttribute="top" secondItem="0qe-NH-wxo" secondAttribute="bottom" constant="5" id="wqE-GA-xKa"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="0qe-NH-wxo" firstAttribute="top" secondItem="Ezu-wu-dT1" secondAttribute="top" id="Yev-aL-npv"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ZpP-nV-zg7" firstAttribute="leading" secondItem="iM8-1t-OVU" secondAttribute="leading" constant="12" id="IUo-5M-e4b"/>
+                        <constraint firstItem="d6C-Ot-OmM" firstAttribute="leading" secondItem="iM8-1t-OVU" secondAttribute="leading" constant="12" id="Yku-JJ-LPA"/>
+                        <constraint firstAttribute="bottom" secondItem="d6C-Ot-OmM" secondAttribute="bottom" constant="8" id="lm7-rn-Hix"/>
+                        <constraint firstItem="ZpP-nV-zg7" firstAttribute="top" secondItem="iM8-1t-OVU" secondAttribute="top" constant="8" id="nKA-db-Tlj"/>
+                        <constraint firstAttribute="trailing" secondItem="d6C-Ot-OmM" secondAttribute="trailing" constant="12" id="nTp-O8-6gU"/>
+                        <constraint firstItem="d6C-Ot-OmM" firstAttribute="top" secondItem="ZpP-nV-zg7" secondAttribute="bottom" constant="8" id="rkM-Zi-3BK"/>
+                        <constraint firstAttribute="trailing" secondItem="ZpP-nV-zg7" secondAttribute="trailing" constant="12" id="vUY-0Y-l9K"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="skeletonCornerRadius">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="0.64530732615894038" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iM8-1t-OVU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4vH-FA-CEr"/>
+                <constraint firstAttribute="bottom" secondItem="iM8-1t-OVU" secondAttribute="bottom" id="Nvw-hf-UmN"/>
+                <constraint firstItem="iM8-1t-OVU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fFk-qF-GOY"/>
+                <constraint firstAttribute="trailing" secondItem="iM8-1t-OVU" secondAttribute="trailing" id="wpE-f4-SN7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="shimmerView" destination="iM8-1t-OVU" id="RRq-DK-1U4"/>
+                <outlet property="view1" destination="Ezu-wu-dT1" id="Z7h-7p-1tW"/>
+                <outlet property="view2" destination="0qe-NH-wxo" id="0Hf-g3-us0"/>
+                <outlet property="view3" destination="SPf-ls-vcg" id="SM6-8H-Pxb"/>
+                <outlet property="view4" destination="a8d-Za-3uK" id="eUT-oA-K5s"/>
+                <outlet property="view5" destination="a5V-iN-BYj" id="r7E-UA-ZYI"/>
+                <outlet property="view6" destination="d6C-Ot-OmM" id="RhV-FJ-bL2"/>
+            </connections>
+            <point key="canvasLocation" x="332.06106870229007" y="219.36619718309859"/>
+        </view>
+    </objects>
+</document>

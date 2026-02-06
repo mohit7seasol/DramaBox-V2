@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24412" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24405"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NewDramaCell" customModule="DramaBox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="204"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="204"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bkt-k7-D0J">
+                        <rect key="frame" x="0.0" y="0.0" width="170" height="204"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yoD-qS-GEH">
+                                <rect key="frame" x="0.0" y="0.0" width="170" height="156"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The End of The Fxxxxing Housewife" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBx-zS-XdO">
+                                <rect key="frame" x="10" y="166" width="150" height="28.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yoD-qS-GEH" firstAttribute="height" secondItem="Bkt-k7-D0J" secondAttribute="height" multiplier="0.764706" id="DAS-hi-3m8"/>
+                            <constraint firstAttribute="trailing" secondItem="OBx-zS-XdO" secondAttribute="trailing" constant="10" id="IR0-3v-4r2"/>
+                            <constraint firstItem="yoD-qS-GEH" firstAttribute="top" secondItem="Bkt-k7-D0J" secondAttribute="top" id="PBU-Qs-5Lb"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OBx-zS-XdO" secondAttribute="bottom" constant="4" id="XnX-ey-zlr"/>
+                            <constraint firstItem="OBx-zS-XdO" firstAttribute="leading" secondItem="Bkt-k7-D0J" secondAttribute="leading" constant="10" id="eRL-Uk-qCj"/>
+                            <constraint firstItem="OBx-zS-XdO" firstAttribute="top" secondItem="yoD-qS-GEH" secondAttribute="bottom" constant="10" id="hmb-nO-fzE"/>
+                            <constraint firstItem="yoD-qS-GEH" firstAttribute="leading" secondItem="Bkt-k7-D0J" secondAttribute="leading" id="wnr-dm-03w"/>
+                            <constraint firstAttribute="trailing" secondItem="yoD-qS-GEH" secondAttribute="trailing" id="yQn-WX-h3s"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Bkt-k7-D0J" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="KD2-rK-4PQ"/>
+                <constraint firstAttribute="bottom" secondItem="Bkt-k7-D0J" secondAttribute="bottom" id="Xek-w8-gps"/>
+                <constraint firstAttribute="trailing" secondItem="Bkt-k7-D0J" secondAttribute="trailing" id="cqr-f6-88k"/>
+                <constraint firstItem="Bkt-k7-D0J" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="jl3-3x-aft"/>
+            </constraints>
+            <size key="customSize" width="170" height="204"/>
+            <connections>
+                <outlet property="dramaNameLabel" destination="OBx-zS-XdO" id="KC5-jx-0z2"/>
+                <outlet property="dramaPreviewImageView" destination="yoD-qS-GEH" id="5A3-ea-Qvo"/>
+            </connections>
+            <point key="canvasLocation" x="143.5114503816794" y="177.46478873239437"/>
+        </collectionViewCell>
+    </objects>
+</document>
